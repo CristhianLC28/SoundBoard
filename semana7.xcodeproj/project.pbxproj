@@ -14,6 +14,8 @@
 		7DFC684B2631C530007AAA6B /* semana7.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC68492631C530007AAA6B /* semana7.xcdatamodeld */; };
 		7DFC684D2631C532007AAA6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFC684C2631C532007AAA6B /* Assets.xcassets */; };
 		7DFC68502631C532007AAA6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFC684E2631C532007AAA6B /* LaunchScreen.storyboard */; };
+		7DFC685F2631CC7A007AAA6B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC685E2631CC7A007AAA6B /* UIView.swift */; };
+		7DFC68632631CE8A007AAA6B /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC68622631CE8A007AAA6B /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7DFC684C2631C532007AAA6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DFC684F2631C532007AAA6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DFC68512631C532007AAA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFC685E2631CC7A007AAA6B /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		7DFC68622631CE8A007AAA6B /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,66 @@
 		7DFC683F2631C530007AAA6B /* semana7 */ = {
 			isa = PBXGroup;
 			children = (
-				7DFC68402631C530007AAA6B /* AppDelegate.swift */,
-				7DFC68422631C530007AAA6B /* SceneDelegate.swift */,
-				7DFC68442631C530007AAA6B /* ViewController.swift */,
-				7DFC68462631C530007AAA6B /* Main.storyboard */,
-				7DFC684C2631C532007AAA6B /* Assets.xcassets */,
-				7DFC684E2631C532007AAA6B /* LaunchScreen.storyboard */,
+				7DFC685D2631CBEB007AAA6B /* Views */,
+				7DFC685C2631CBE2007AAA6B /* Resources */,
+				7DFC685B2631CBD9007AAA6B /* Models */,
+				7DFC685A2631CBBE007AAA6B /* Application */,
+				7DFC68592631CBA4007AAA6B /* Utils */,
+				7DFC68582631CB98007AAA6B /* Controllers */,
 				7DFC68512631C532007AAA6B /* Info.plist */,
 				7DFC68492631C530007AAA6B /* semana7.xcdatamodeld */,
 			);
 			path = semana7;
+			sourceTree = "<group>";
+		};
+		7DFC68582631CB98007AAA6B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC68442631C530007AAA6B /* ViewController.swift */,
+				7DFC68622631CE8A007AAA6B /* SoundViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7DFC68592631CBA4007AAA6B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC685E2631CC7A007AAA6B /* UIView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7DFC685A2631CBBE007AAA6B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC68422631C530007AAA6B /* SceneDelegate.swift */,
+				7DFC68402631C530007AAA6B /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7DFC685B2631CBD9007AAA6B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7DFC685C2631CBE2007AAA6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC684C2631C532007AAA6B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7DFC685D2631CBEB007AAA6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC684E2631C532007AAA6B /* LaunchScreen.storyboard */,
+				7DFC68462631C530007AAA6B /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +194,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFC685F2631CC7A007AAA6B /* UIView.swift in Sources */,
 				7DFC684B2631C530007AAA6B /* semana7.xcdatamodeld in Sources */,
 				7DFC68452631C530007AAA6B /* ViewController.swift in Sources */,
 				7DFC68412631C530007AAA6B /* AppDelegate.swift in Sources */,
+				7DFC68632631CE8A007AAA6B /* SoundViewController.swift in Sources */,
 				7DFC68432631C530007AAA6B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
